@@ -25,4 +25,60 @@
         </form>
    
    </body>
+
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options and Preferences Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Options and Preferences</h1>
+    <form action="#" method="post">
+
+        <!-- Radio Buttons -->
+        <div class="form-group">
+            <p>Choose your option:</p>
+            <label>
+                <input type="radio" name="option" value="option1" required> Option 1
+            </label><br>
+            <label>
+                <input type="radio" name="option" value="option2"> Option 2
+            </label><br>
+            <label>
+                <input type="radio" name="option" value="option3"> Option 3
+            </label>
+        </div>
+
+        <!-- Checkboxes -->
+        <div class="form-group">
+            <p>Select your preferences:</p>
+            <label>
+                <input type="checkbox" name="preference1"> Preference 1
+            </label><br>
+            <label>
+                <input type="checkbox" name="preference2"> Preference 2
+            </label><br>
+            <label>
+                <input type="checkbox" name="preference3"> Preference 3
+            </label>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+
+</body>
 </html>
